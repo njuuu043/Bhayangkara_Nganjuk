@@ -30,7 +30,7 @@
                                 <?php foreach ($entry as $data) :
                                 ?>
                                     <tr>
-                                        <td class="px-6 py-4 text-center whitespace-nowrap text-sm  text-gray-800 "><?= date('Y', strtotime($data['tahun'])) ?></td>
+                                        <td class="px-6 py-4 text-center whitespace-nowrap text-sm  text-gray-800 "><?= $data['tahun'] ?></td>
                                         <td class="px-6 py-4 text-center whitespace-nowrap text-sm  text-gray-800 "><?= $data['user_entry'] ?></td>
                                         <td class="px-6 py-4 text-center whitespace-nowrap text-sm  text-gray-800 "><?= date('d-M-Y', strtotime($data['created_at'])) ?></td>
                                         <td class="px-6 py-4 text-center whitespace-nowrap text-sm  text-gray-800 "><?= empty($data['updated_at']) ? "-" : date('d-M-Y', strtotime($data['updated_at'])) ?></td>

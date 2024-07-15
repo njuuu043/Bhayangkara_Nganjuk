@@ -22,6 +22,7 @@ class BobotBSCController extends BaseController
             'periode' => $this->BobotBSC->getPeriode(),
             'pager' => $this->BobotBSC->pager
         ];
+        
         return view('kpi/bobot/bobotView', $data);
     }
 
