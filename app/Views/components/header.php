@@ -11,7 +11,7 @@
         <div class="w-1/2 lg:w-full flex items-center justify-end lg:justify-between sm:gap-x-3 sm:order-3">
 
             <div class="hidden lg:block w-7/12">
-                <h1 class="text-xl md:text-xl mb-1 sm:mx-3 lg:mx-0 font-semibold text-green-600">Dashboard RS Bhayangkara Nganjuk</h1>
+                <h1 class="text-xl md:text-xl mb-1 sm:mx-3 lg:mx-0 font-semibold text-black-600">Dashboard RS Bhayangkara Nganjuk</h1>
             </div>
 
             <div class="flex flex-row w-5/12 items-center justify-end gap-2">

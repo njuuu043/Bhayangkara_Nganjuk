@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.4 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -767,11 +767,6 @@ input[type='number']::-webkit-outer-spin-button,
   margin-right: 0.25rem;
 }
 
-.mx-3 {
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
-}
-
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -963,20 +958,12 @@ input[type='number']::-webkit-outer-spin-button,
   height: 1.75rem;
 }
 
-.h-\[1900px\] {
-  height: 1900px;
-}
-
 .h-\[2\.375rem\] {
   height: 2.375rem;
 }
 
 .h-full {
   height: 100%;
-}
-
-.h-auto {
-  height: auto;
 }
 
 .h-screen {
@@ -1037,10 +1024,6 @@ input[type='number']::-webkit-outer-spin-button,
 
 .w-\[2\.375rem\] {
   width: 2.375rem;
-}
-
-.w-\[30\%\] {
-  width: 30%;
 }
 
 .w-\[calc\(100\%-2rem\)\] {
@@ -1619,11 +1602,6 @@ input[type='number']::-webkit-outer-spin-button,
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 
 .text-\[12px\] {
@@ -2285,6 +2263,27 @@ input[type='number']::-webkit-outer-spin-button,
   background-color: transparent;
 }
 
+.hs-accordion.active > .hs-accordion-active\:block {
+  display: block;
+}
+
+.hs-accordion.active > .hs-accordion-active\:hidden {
+  display: none;
+}
+
+.hs-accordion.active > .hs-accordion-active\:fill-green-600 {
+  fill: #16a34a;
+}
+
+.hs-accordion.active > .hs-accordion-active\:text-green-600 {
+  --tw-text-opacity: 1;
+  color: rgb(22 163 74 / var(--tw-text-opacity));
+}
+
+.hs-accordion.active > .hs-accordion-active\:hover\:bg-transparent:hover {
+  background-color: transparent;
+}
+
 .hs-accordion.active > .hs-accordion-toggle .hs-accordion-active\:block {
   display: block;
 }
@@ -2306,6 +2305,27 @@ input[type='number']::-webkit-outer-spin-button,
   background-color: transparent;
 }
 
+.hs-accordion.active > .hs-accordion-heading > .hs-accordion-toggle .hs-accordion-active\:block {
+  display: block;
+}
+
+.hs-accordion.active > .hs-accordion-heading > .hs-accordion-toggle .hs-accordion-active\:hidden {
+  display: none;
+}
+
+.hs-accordion.active > .hs-accordion-heading > .hs-accordion-toggle .hs-accordion-active\:fill-green-600 {
+  fill: #16a34a;
+}
+
+.hs-accordion.active > .hs-accordion-heading > .hs-accordion-toggle .hs-accordion-active\:text-green-600 {
+  --tw-text-opacity: 1;
+  color: rgb(22 163 74 / var(--tw-text-opacity));
+}
+
+.hs-accordion.active > .hs-accordion-heading > .hs-accordion-toggle .hs-accordion-active\:hover\:bg-transparent:hover {
+  background-color: transparent;
+}
+
 .hs-accordion.active > .hs-accordion-toggle.hs-accordion-active\:block {
   display: block;
 }
@@ -2324,6 +2344,27 @@ input[type='number']::-webkit-outer-spin-button,
 }
 
 .hs-accordion.active > .hs-accordion-toggle.hs-accordion-active\:hover\:bg-transparent:hover {
+  background-color: transparent;
+}
+
+.hs-accordion.active > .hs-accordion-heading > .hs-accordion-toggle.hs-accordion-active\:block {
+  display: block;
+}
+
+.hs-accordion.active > .hs-accordion-heading > .hs-accordion-toggle.hs-accordion-active\:hidden {
+  display: none;
+}
+
+.hs-accordion.active > .hs-accordion-heading > .hs-accordion-toggle.hs-accordion-active\:fill-green-600 {
+  fill: #16a34a;
+}
+
+.hs-accordion.active > .hs-accordion-heading > .hs-accordion-toggle.hs-accordion-active\:text-green-600 {
+  --tw-text-opacity: 1;
+  color: rgb(22 163 74 / var(--tw-text-opacity));
+}
+
+.hs-accordion.active > .hs-accordion-heading > .hs-accordion-toggle.hs-accordion-active\:hover\:bg-transparent:hover {
   background-color: transparent;
 }
 
@@ -2523,6 +2564,11 @@ input[type='number']::-webkit-outer-spin-button,
   color: rgb(22 163 74 / var(--tw-text-opacity));
 }
 
+.dark\:text-neutral-200:is(.dark *) {
+  --tw-text-opacity: 1;
+  color: rgb(229 229 229 / var(--tw-text-opacity));
+}
+
 .dark\:text-neutral-300:is(.dark *) {
   --tw-text-opacity: 1;
   color: rgb(212 212 212 / var(--tw-text-opacity));
@@ -2636,11 +2682,6 @@ input[type='number']::-webkit-outer-spin-button,
   background-color: rgb(153 27 27 / 0.5);
 }
 
-.dark\:hover\:bg-slate-800:hover:is(.dark *) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
-}
-
 .dark\:hover\:bg-white\/10:hover:is(.dark *) {
   background-color: rgb(255 255 255 / 0.1);
 }
@@ -2675,9 +2716,9 @@ input[type='number']::-webkit-outer-spin-button,
   background-color: rgb(64 64 64 / var(--tw-bg-opacity));
 }
 
-.dark\:focus\:bg-slate-800:focus:is(.dark *) {
+.dark\:focus\:bg-neutral-800:focus:is(.dark *) {
   --tw-bg-opacity: 1;
-  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
+  background-color: rgb(38 38 38 / var(--tw-bg-opacity));
 }
 
 .dark\:focus\:bg-white\/10:focus:is(.dark *) {
@@ -2714,12 +2755,27 @@ input[type='number']::-webkit-outer-spin-button,
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.hs-accordion.active > .dark\:hs-accordion-active\:text-white:is(.dark *) {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .hs-accordion.active > .hs-accordion-toggle .dark\:hs-accordion-active\:text-white:is(.dark *) {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.hs-accordion.active > .hs-accordion-heading > .hs-accordion-toggle .dark\:hs-accordion-active\:text-white:is(.dark *) {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .hs-accordion.active > .hs-accordion-toggle.dark\:hs-accordion-active\:text-white:is(.dark *) {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hs-accordion.active > .hs-accordion-heading > .hs-accordion-toggle.dark\:hs-accordion-active\:text-white:is(.dark *) {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
@@ -2781,11 +2837,6 @@ input[type='number']::-webkit-outer-spin-button,
 }
 
 @media (min-width: 768px) {
-  .md\:mx-8 {
-    margin-left: 2rem;
-    margin-right: 2rem;
-  }
-
   .md\:mx-auto {
     margin-left: auto;
     margin-right: auto;
@@ -2793,10 +2844,6 @@ input[type='number']::-webkit-outer-spin-button,
 
   .md\:-mt-8 {
     margin-top: -2rem;
-  }
-
-  .md\:hidden {
-    display: none;
   }
 
   .md\:w-1\/4 {
@@ -2846,11 +2893,6 @@ input[type='number']::-webkit-outer-spin-button,
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
-
-  .md\:text-black {
-    --tw-text-opacity: 1;
-    color: rgb(0 0 0 / var(--tw-text-opacity));
-  }
 }
 
 @media (min-width: 1024px) {
@@ -2869,6 +2911,10 @@ input[type='number']::-webkit-outer-spin-button,
 
   .lg\:me-0 {
     margin-inline-end: 0px;
+  }
+
+  .lg\:mt-8 {
+    margin-top: 2rem;
   }
 
   .lg\:block {
